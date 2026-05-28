@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Day 05",
+            "database": "C:\\Users\\PC\\Downloads\\Day05_practice.db"
+        }
+    ]
+}

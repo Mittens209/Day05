@@ -1,0 +1,8 @@
+/* The warehouse manager needs to know which items are running low. Show all inventory items where
+quantity_on_hand is LESS THAN or EQUAL TO the reorder_level. Sort by quantity_on_hand (lowest first).*/
+ 
+-- Returned rows = 4
+SELECT *
+FROM inventory
+WHERE quantity_on_hand <= reorder_level
+ORDER BY quantity_on_hand ASC;
