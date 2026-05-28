@@ -10,3 +10,4 @@ FROM sales
 WHERE total_amount >= 10000 AND region = 'NCR'
 ORDER BY total_amount DESC;
 
+
